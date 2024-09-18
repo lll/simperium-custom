@@ -1,5 +1,5 @@
 {
-  "name": "simperium",
+  "name": "simperium-custom",
   "version": "1.1.4",
   "description": "A simperium client for node.js",
   "main": "./lib/simperium/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Simperium/node-simperium.git"
+    "url": "git://github.com/lll/simperium-custom.git"
   },
   "files": [
     "lib/"
@@ -31,7 +31,7 @@
     "websocket": "1.0.31"
   },
   "devDependencies": {
-    "@babel/cli": "7.7.5",
+    "@babel/cli": "^7.25.6",
     "@babel/core": "7.7.5",
     "@babel/plugin-proposal-object-rest-spread": "7.7.4",
     "@babel/preset-env": "7.7.6",
@@ -40,7 +40,7 @@
     "babel-eslint": "10.0.3",
     "eslint": "6.7.2",
     "flow-bin": "0.113.0",
-    "mocha": "6.2.2",
+    "mocha": "^10.7.3",
     "nyc": "14.1.1"
   }
 }
